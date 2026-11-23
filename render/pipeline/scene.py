@@ -128,6 +128,15 @@ def part(o):
     return p.name.split(".")[0]
 
 
+# The footprints specify top-actuated SKRPABE010 switches, but the embedded
+# SKRPAC STEP model is side-actuated. Its actuator points along local +Y while
+# the mounting plane's outward normal is local -Z. Turn it upright about the
+# model origin; doing this in local space preserves each footprint's PCB rotation.
+for o in scene.objects:
+    if o.type == "MESH" and part(o).startswith("SW"):
+        o.matrix_basis = Matrix.Rotation(-math.pi / 2, 4, "X") @ o.matrix_basis
+
+
 def base_colour(mat):
     b = mat.node_tree.nodes.get("Principled BSDF") if mat and mat.use_nodes else None
     return tuple(b.inputs["Base Color"].default_value[:3]) if b else (0, 0, 0)
