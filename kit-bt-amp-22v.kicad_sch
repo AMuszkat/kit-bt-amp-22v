@@ -1,0 +1,290 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.99")
+	(uuid "06c34b13-934f-45f9-bdb8-b2785e60d789")
+	(paper "A3")
+	(lib_symbols)
+	(sheet
+		(at 30 115)
+		(size 100 65)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "31bd945e-833d-4b66-a9af-709877f32507")
+		(property "Sheetname" "Audio Interface"
+			(at 30 114.365 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematic/audio-interface.kicad_sch"
+			(at 30 180.635 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kit-bt-amp-22v"
+				(path "/06c34b13-934f-45f9-bdb8-b2785e60d789"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 145 30)
+		(size 100 65)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "87ede963-b49d-455c-8aeb-5df7ab533608")
+		(property "Sheetname" "PSoC6 Power"
+			(at 145 29.365 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematic/psoc6-power.kicad_sch"
+			(at 145 95.635 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kit-bt-amp-22v"
+				(path "/06c34b13-934f-45f9-bdb8-b2785e60d789"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 260 115)
+		(size 100 65)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "93f8aac8-4b71-48da-98a9-daf37c0a36f2")
+		(property "Sheetname" "Bluetooth Debug"
+			(at 260 114.365 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematic/bluetooth-debug.kicad_sch"
+			(at 260 180.635 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kit-bt-amp-22v"
+				(path "/06c34b13-934f-45f9-bdb8-b2785e60d789"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30 30)
+		(size 100 65)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b3cbe29e-da22-4aad-96d1-2484769f0c02")
+		(property "Sheetname" "Main Power"
+			(at 30 29.365 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematic/main-power.kicad_sch"
+			(at 30 95.635 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kit-bt-amp-22v"
+				(path "/06c34b13-934f-45f9-bdb8-b2785e60d789"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 145 115)
+		(size 100 65)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e22dbf36-5a83-49d8-a040-c030c3d93113")
+		(property "Sheetname" "MA12070P Amplifier"
+			(at 145 114.365 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematic/ma12070p-amplifier.kicad_sch"
+			(at 145 180.635 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kit-bt-amp-22v"
+				(path "/06c34b13-934f-45f9-bdb8-b2785e60d789"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 260 30)
+		(size 100 65)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ec304af7-e798-4523-8f03-c86621da453f")
+		(property "Sheetname" "PSoC6 Signal"
+			(at 260 29.365 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematic/psoc6-signal.kicad_sch"
+			(at 260 95.635 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kit-bt-amp-22v"
+				(path "/06c34b13-934f-45f9-bdb8-b2785e60d789"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

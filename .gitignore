@@ -1,0 +1,25 @@
+# Altium sources, downloaded conversion tools, and intermediate conversion output
+conversion/
+
+# KiCad local/editor state
+.history/
+*.kicad_prl
+*.kicad_prl.*
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_pro-bak
+*.kicad_sym-bak
+sym-lib-table.bak
+fp-info-cache
+*-backups/
+.konnect/
+~*.lck
+
+# Render intermediates and validation logs
+render/work/
+validation/
+
+# OS/editor noise
+.DS_Store
+*~
+__pycache__/
